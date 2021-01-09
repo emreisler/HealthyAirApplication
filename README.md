@@ -6,7 +6,7 @@ Main purpose of the app is to inform the elder users about air healthyness in th
 
 The application activities and functions are followings :
 
-MainActivity-> Taking users' diseases selections as input.
+MainActivity-> Taking users' diseases selections as input.\n
 
 NameActivity-> Taking users' names, surnames as input.
 
@@ -20,12 +20,12 @@ Web service using machine learning model predict result for inputs which are sen
 
 Notify users to inform them about result if result is 1 than "This place is harmful" else "This place is safe"
 
-Web service details:
+Web service details:\n
 ->Running on google cloud platform.
 ->Using python flask framework.
 ->Inclued python module which used for train the machine learning model.
 
-Machine learning model details:
+Machine learning model details:\n
 ->The model uses K-Nearest Neighbor algorithm to train and test model.
 ->Python scikit-learn library is used for this purpose.
 ->Training data (.csv) is prepared dummy which includes about 12000 rows and 12 columns in each row(11 input and 1 label).
