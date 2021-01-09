@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">HealtyAirApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_maps_key">AIzaSyAfcABBfeZkzRQLZpPcA3fTgR__CCvJ_ZQ</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        tools:layout_editor_absoluteY="395dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/dis1"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Asthma" />
+
+            <CheckBox
+                android:id="@+id/dis2"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Ischaemic heart disiase" />
+
+            <CheckBox
+                android:id="@+id/dis3"
+                style="@android:style/Widget.Material.CompoundButton.CheckBox"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Cardiovascular Problems" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/dis4"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Chronic Obstructive Pulmonary"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <CheckBox
+                android:id="@+id/dis5"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Acute Lower Respiratory" />
+
+            <CheckBox
+                android:id="@+id/dis6"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:text="Lung Cancer" />
+
+            <Button
+                android:id="@+id/next_to_name_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="CONTINUE" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
