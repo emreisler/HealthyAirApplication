@@ -29,3 +29,4 @@ Machine learning model details:
 ->The model uses K-Nearest Neighbor algorithm to train and test model.
 ->Python scikit-learn library is used for this purpose.
 ->Training data (.csv) is prepared dummy which includes about 12000 rows and 12 columns in each row(11 input and 1 label).
+
