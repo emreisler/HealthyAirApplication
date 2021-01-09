@@ -14,7 +14,7 @@ BluetoothActivity-> Asks users to open their mobile device' s bluetooth services
 Connects to ardunio via Bluetooth and retrieves air gas measurements data from it.(5 measurements)
 
 MapActivity-> Asks users to enable their mobile device's location services (if  disabled).
-Sends URL request to specified web service. Example request => ("https://firla-277516.ey.r.appspot.com/?meas1=15&meas2=14&meas3=45&meas4=30&meas5=25&dis1=,&dis2=0&dis3=1&dis4=0&dis5=1&dis6=0")
+Sends URL request to specified web service. Example request => ("https://firla-277516.ey.r.appspot.com/?meas1=15&meas2=14&meas3=45&meas4=30&meas5=25&dis1=1&dis2=0&dis3=1&dis4=0&dis5=1&dis6=0")
 Get response from wen service in json format. Example response => ("{"harmful":"[1]"}"). Example response => ("{"harmful":"[0]"}")
 Web service using machine learning model predict result for inputs which are sent by http get method. (5 measurements in key['meas1']..key['meas5'], 6 disease info 0 or 1 in key['dis1']...key['dis6'])
 
