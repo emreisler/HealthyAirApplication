@@ -31,7 +31,10 @@ Machine learning model details:
 ->Training data (.csv) is prepared dummy which includes about 12000 rows and 12 columns in each row(11 input and 1 label).
 
 
-<img src="images/1.jpg" width="200" height="320"> <img src="images/2.jpg" width="200" height="320"> <img src="images/3.jpg" width="200" height="320"> <img src="images/4.jpg" width="200" height="320"> <img src="images/5.jpg" width="200" height="320"> <img src="images/6.jpg" width="200" height="320">
+<img src="images/1.jpg" width="200" height="320"> <img src="images/2.jpg" width="200" height="320"> <img src="images/3.jpg" width="200" height="320"> <img src="images/4.jpg" width="200" height="320"> <img src="images/5.jpg" width="200" height="320"> <img src="images/6.jpg" width="200" height="320"><img src="images/7.jpg" width="200" height="320">
+<img src="images/8.jpg" width="200" height="320"><img src="images/9.jpg" width="200" height="320">
+
+
 
 
 
