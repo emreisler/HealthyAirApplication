@@ -30,5 +30,7 @@ Machine learning model details:
 ->Python scikit-learn library is used for this purpose.
 ->Training data (.csv) is prepared dummy which includes about 12000 rows and 12 columns in each row(11 input and 1 label).
 
-![alt text](images/1.jpg)
 
+<img src="images/1.jpg" width="200" height="320"> 
+<img src="images/2.jpg" width="200" height="320"> 
+<img src="images/3.jpg" width="200" height="320">
